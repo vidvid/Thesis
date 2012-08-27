@@ -258,7 +258,7 @@
 \label{chapter:Introduction}
 \thispagestyle{plain}
 \input{1-Introduction/Introduction}
-\chapter{تعاریف اولیه و پیش‌زمینه تحقیق}
+\chapter{پیش‌زمینه تحقیق}
 \label{chapter:Preliminaries}
 \thispagestyle{plain}
 \input{2-Preliminaries/Preliminaries}

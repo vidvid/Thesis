@@ -2,48 +2,12 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Vahid Zoghi at ۱۳۹۱-۰۶-۰۷ ۰۰:۲۵:۲۸ +0430 
+%% Created for Vahid Zoghi at ۱۳۹۰-۱۲-۱۴ ۱۵:۲۶:۳۸ +0330 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
-
-@article{Agha1987,
-	Address = {Cambridge, MA, USA},
-	Author = {Gul Agha and Carl Hewitt},
-	Book = {Object-oriented concurrent programming},
-	Date-Added = {۱۳۹۱-۰۶-۰۶ ۱۹:۴۶:۵۰ +0000},
-	Date-Modified = {۱۳۹۱-۰۶-۰۶ ۱۹:۴۶:۵۰ +0000},
-	Isbn = {0-262-24026-2},
-	Pages = {37--53},
-	Publisher = {MIT Press},
-	Title = {Concurrent programming using actors},
-	Year = {1987}}
-
-@article{Agha1990,
-	Address = {New York, NY, USA},
-	Author = {Gul Agha},
-	Date-Added = {۱۳۹۱-۰۶-۰۶ ۱۹:۴۵:۲۲ +0000},
-	Date-Modified = {۱۳۹۱-۰۶-۰۶ ۱۹:۴۵:۲۲ +0000},
-	Issn = {0001-0782},
-	Journal = {Commun. ACM},
-	Number = {9},
-	Pages = {125--141},
-	Publisher = {ACM},
-	Title = {Concurrent object-oriented programming},
-	Volume = {33},
-	Year = {1990}}
-
-@phdthesis{Hewitt1972,
-	Author = {Hewitt, Carl},
-	Date-Added = {۱۳۹۱-۰۶-۰۶ ۱۹:۴۳:۳۶ +0000},
-	Date-Modified = {۱۳۹۱-۰۶-۰۶ ۱۹:۴۳:۳۶ +0000},
-	Owner = {mj},
-	School = {Department of Computer Science, MIT},
-	Timestamp = {2008.08.19},
-	Title = {Description and Theoretical Analysis (Using PLANNER: A Language for Proving Theorems and Manipulating Models in a Robot).},
-	Year = {1972}}
 
 @book{erlang,
 	Abstract = {{Syntax Notation One (ASN.1), Recommendation X.208,Geneva, Switzerland.[13] CCITT Specification of Basic Encoding Rules (BER for Abstract Syntax One (ASN.1),Recommendation X.209, Geneva, Switzerland.[14] Gray, Jim and Reuter, Andreas Transaction Processing Concepts and Techniques, MorganKaufmann Publishers, 1993.144 Bibliography...}},
@@ -284,7 +248,7 @@ computing.}},
 	Title = {Performance evaluation of software architectures},
 	Url = {http://doi.acm.org/10.1145/287318.287353},
 	Year = {1998},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAgQAAAAAAgQAAgAAA01hYwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMtMnXxIKwAAAAZd7xtQZXJmRXZhbFNXQXJjaGl0ZWN0dXJlcy5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABl33yW8rYAAAAAAAAAAAAAYABwAACSAAAAAAAAAAAAAAAAAAAAAGcGFwZXJzABAACAAAy0xsRAAAABEACAAAyW76KAAAAAEAIAAGXe8ABl3eAAZdQAAGXDcABlwvAAZZSgAFq4kAAJGgAAIAaU1hYzpVc2VyczoAdmFoaWQ6AERyb3Bib3g6AHVuaToATVM6AFRoZXNpczoARmluZSBHcmFpbmVkIENvbmN1cnJlbmN5OgBwYXBlcnM6AFBlcmZFdmFsU1dBcmNoaXRlY3R1cmVzLnBkZgAADgA4ABsAUABlAHIAZgBFAHYAYQBsAFMAVwBBAHIAYwBoAGkAdABlAGMAdAB1AHIAZQBzAC4AcABkAGYADwAIAAMATQBhAGMAEgBdVXNlcnMvdmFoaWQvRHJvcGJveC91bmkvTVMvVGhlc2lzL0ZpbmUgR3JhaW5lZCBDb25jdXJyZW5jeS9wYXBlcnMvUGVyZkV2YWxTV0FyY2hpdGVjdHVyZXMucGRmAAATAAEvAAAVAAIADP//AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxBjLi4vLi4vLi4vLi4vLi4vLi4vRHJvcGJveC91bmkvTVMvVGhlc2lzL0ZpbmUgR3JhaW5lZCBDb25jdXJyZW5jeS9wYXBlcnMvUGVyZkV2YWxTV0FyY2hpdGVjdHVyZXMucGRm0hwdJCWiJSFcTlNEaWN0aW9uYXJ5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwARQBLAFIAXQBlAGwAbwBxAHMAdgB4AHoAfACGAJMAmACgAqgCqgKvArgCwwLHAtUC3ALlA0sDUANTA2ADZQAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAN3},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUIJidUJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABqAkKFRYXGyIjVSRudWxs0wsMDQ4RFFpOUy5vYmplY3RzV05TLmtleXNWJGNsYXNzog8QgASABqISE4ACgAOAB1lhbGlhc0RhdGFccmVsYXRpdmVQYXRo0hgNGRpXTlMuZGF0YU8RAgQAAAAAAgQAAgAAA01hYwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMtMnXxIKwAAAAZd7xtQZXJmRXZhbFNXQXJjaGl0ZWN0dXJlcy5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABl33yW8rYAAAAAAAAAAAAAMAAgAACSAAAAAAAAAAAAAAAAAAAAAGcGFwZXJzABAACAAAy0xsRAAAABEACAAAyW76KAAAAAEAIAAGXe8ABl3eAAZdQAAGXDcABlwvAAZZSgAFq4kAAJGgAAIAaU1hYzpVc2VyczoAdmFoaWQ6AERyb3Bib3g6AHVuaToATVM6AFRoZXNpczoARmluZSBHcmFpbmVkIENvbmN1cnJlbmN5OgBwYXBlcnM6AFBlcmZFdmFsU1dBcmNoaXRlY3R1cmVzLnBkZgAADgA4ABsAUABlAHIAZgBFAHYAYQBsAFMAVwBBAHIAYwBoAGkAdABlAGMAdAB1AHIAZQBzAC4AcABkAGYADwAIAAMATQBhAGMAEgBdVXNlcnMvdmFoaWQvRHJvcGJveC91bmkvTVMvVGhlc2lzL0ZpbmUgR3JhaW5lZCBDb25jdXJyZW5jeS9wYXBlcnMvUGVyZkV2YWxTV0FyY2hpdGVjdHVyZXMucGRmAAATAAEvAAAVAAIADP//AACABdIcHR4fWCRjbGFzc2VzWiRjbGFzc25hbWWjHyAhXU5TTXV0YWJsZURhdGFWTlNEYXRhWE5TT2JqZWN0XxArLi4vLi4vLi4vcGFwZXJzL1BlcmZFdmFsU1dBcmNoaXRlY3R1cmVzLnBkZtIcHSQloiUhXE5TRGljdGlvbmFyeRIAAYagXxAPTlNLZXllZEFyY2hpdmVyAAgAEQAWAB8AKAAyADUAOgA8AEUASwBSAF0AZQBsAG8AcQBzAHYAeAB6AHwAhgCTAJgAoAKoAqoCrwK4AsMCxwLVAtwC5QMTAxgDGwMoAy0AAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAADPw==},
 	Bdsk-Url-1 = {http://doi.acm.org/10.1145/287318.287353}}
 
 @book{GOF,
@@ -338,10 +302,36 @@ it will make your job easier and your results more elegant. --\_Jake Bond\_}},
 	Year = {1994},
 	Bdsk-Url-1 = {http://www.aw-bc.com/catalog/academic/product/0,1144,0201633612,00.html}}
 
-@book{Agha_86,
+@article{Agha_90,
+	Abstract = {{Three significant trends have underscored the central role of concurrency in computing. First, there is increased use of interacting processes by individual users, for example, application programs running on X windows. Second, workstation networks have become a cost-effective mechanism for resource sharing and distributed problem solving. For example, loosely coupled problems, such as finding all the factors of large prime numbers, have been solved by utilizing ideal cycles on networks of hundreds of workstations. A loosely coupled problem is one which can be easily partitioned into many smaller subproblems so that interactions between the subproblems is quite limited. Finally, multiprocessor technology has advanced to the point of providing supercomputing power at a fraction of the traditional cost. At the same time, software engineering considerations such as the need for data abstraction to promote program modularity underlie the rapid acceptance of object-oriented programming methodology. By separating the specification of what is done (the abstraction) from how it is done (the implementation), the concept of objects provides modularity necessary for programming in the large. It turns out that concurrency is a natural consequence of the concept of objects. In fact Simula, the first object-oriented language, simulated a simple form of concurrency using coroutines on conventional architectures. Current development of concurrent object-oriented programming (COOP) is providing a solid software foundation for concurrent computing on multiprocessors, Future generation computing systems are likely to be based on the foundations being developed by this emerging software technology. The goal of this article is to discuss the foundations and methodology of COOP. Concurrency refers to the potentially parallel execution of parts of a computation. In a concurrent computation, the components of a program may be executed sequentially, or they may be executed in parallel. Concurrency provides us with the flexibility to interleave the execution of components of a program on a single processor, or to distribute it among several processors. Concurrency abstracts away some of the details in an execution, allowing us to concentrate on conceptual issues without having to be concerned with a particular order of execution which may result from the quirks of a given system. Objects can be defined as entities which encapsulate data and operations into a single computational unit. Object models differ in how the internal behavior of objects is specified. Further, models of concurrent computation based on objects must specify how the objects interact, and different design concerns have led to different models of communication between objects. Object-oriented programming builds on the concepts of objects by supporting patterns of reuse and classification, for example, through the use of inheritance which allows all instances of a particular class to share the same method. In the following section, we outline some common patterns of concurrent problem solving. These patterns can be easily expressed in terms of the rich variety of structures provided by COOP. In particular, we discuss the actor model as a framework for concurrent systems 1  and some concepts which are useful in building actor systems. We will then describe some other models of objects and their relation to the actor model along with novel techniques for supporting reusability and modularity in concurrent object-oriented programming. The last section briefly outlines some major on-going projects in COOP. It is important to note that the actor languages give special emphasis to developing flexible program structures which simplify reasoning about programs. By reasoning we do not narrowly restrict ourselves to the problem of program verification\&mdash;an important program of research whose direct practical utility has yet to be established. Rather our interest is in the ability to understand the properties of software because of clarity in the structure of the code. Such an understanding may be gained by reasoning either informally or formally about programs. The ease with which we can carry out such reasoning is aided by two factors: by modularity in code which is the result of the ability to separate design concerns, and by the ability to abstract program structures which occur repeatedly. In particular, because of their flexible structure, actor languages are particularly well-suited to rapid prototyping applications.}},
+	Address = {New York, NY, USA},
+	Author = {Agha, Gul},
+	Citeulike-Article-Id = {1059458},
+	Citeulike-Linkout-0 = {http://portal.acm.org/citation.cfm?id=84528},
+	Citeulike-Linkout-1 = {http://dx.doi.org/10.1145/83880.84528},
+	Comment = {Another must-read. Anyone who has ever programmed using threads and monitors in e.g. Java will appreciate the simplicity of the actor model as introduced in this paper. Then again, critics and those who programmed using in a pure actor-based style will note the functional style which may get in the way of real programs.},
+	Date-Added = {2011-02-01 16:16:05 +0330},
+	Date-Modified = {2011-02-01 16:16:22 +0330},
+	Doi = {10.1145/83880.84528},
+	Issn = {0001-0782},
+	Journal = {Commun. ACM},
+	Keywords = {concurrency, language, programming},
+	Month = {September},
+	Number = {9},
+	Pages = {125--141},
+	Posted-At = {2007-01-22 10:37:45},
+	Priority = {0},
+	Publisher = {ACM},
+	Title = {{Concurrent object-oriented programming}},
+	Url = {http://dx.doi.org/10.1145/83880.84528},
+	Volume = {33},
+	Year = {1990},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1145/83880.84528}}
+
+@article{Agha_86,
 	Author = {Agha, Gul},
 	Date-Added = {2011-02-01 15:59:05 +0330},
-	Date-Modified = {۱۳۹۱-۰۶-۰۶ ۱۹:۵۵:۲۴ +0000},
-	Publisher = {MIT Press, Cambridge, Mass},
+	Date-Modified = {2011-02-01 16:00:59 +0330},
+	Journal = {MIT Press, Cambridge, Mass},
 	Title = {Actors: A Model of Concurrent Computation in Distributed Systems},
 	Year = {1986}}
