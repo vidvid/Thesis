@@ -1,0 +1,60 @@
+\newglossaryentry{در-لحظه}{description={در-لحظه}, name={\lr{on the fly}}}
+\newglossaryentry{غیر برخط}{description={غیر برخط}, name={\lr{offline}}}
+\newglossaryentry{آزمون‌های دوره‌ای}{description={آزمون‌های دوره‌ای}, name={\lr{regression test}}}
+\newglossaryentry{اولویت‌بندی}{description={اولویت‌بندی}, name={\lr{prioritization}}}
+\newglossaryentry{تطبیق گونه‌ها}{description={تطبیق گونه‌ها}, name={\lr{type checking}}}
+\newglossaryentry{بازرسی}{description={بازرسی}, name={\lr{inspection}}}
+\newglossaryentry{آی‌او‌کو}{description={آی‌او‌کو}, name={\lr{ioco}}}
+\newglossaryentry{مشخصه}{description={مشخصه}, plural={مشخصات},name={\lr{property}}}
+\newglossaryentry{بررسی مدل}{description={بررسی مدل}, name={\lr{model checking}}}
+\newglossaryentry{اثبات قضیه}{description={اثبات قضیه}, name={\lr{theorem proving}}}
+\newglossaryentry{بررسی ایستا}{description={بررسی ایستا}, name={\lr{static analysis}}}
+\newglossaryentry{توصیف}{description={توصیف}, name={\lr{specification}}}
+\newglossaryentry{توصیف سیستم}{description={توصیف سیستم}, name={\lr{system specification}}, parent={توصیف}}
+\newglossaryentry{توصیف پاره‌ای}{description={توصیف پاره‌ای}, name={\lr{partial specification}}}
+\newglossaryentry{سیستم تحت آزمون}{description={سیستم تحت آزمون}, name={\lr{system under test}}}
+\newglossaryentry{اتوماتای تعلیقی}{description={اتوماتای تعلیقی}, name={\lr{suspension automata}}}
+\newglossaryentry{پیاده‌سازی}{description={پیاده‌سازی}, name={\lr{implementation}}}
+\newglossaryentry{مجموعه‌ی آزمون}{description={مجموعه‌ی آزمون}, name={\lr{test suite}}}
+\newglossaryentry{مورد آزمون}{description={مورد آزمون}, name={\lr{test case}}, plural={موارد آزمون}}
+\newglossaryentry{رأی}{description={رأی}, name={\lr{verdict}}}
+\newglossaryentry{شرط‌ محافظ}{description={شرط‌ محافظ}, name={\lr{guard}}, plural={شرط‌های محافظ}}
+\newglossaryentry{عبارت}{description={عبارت}, name={\lr{term}}, plural={عبارات}}
+\newglossaryentry{عبارت پایه}{description={عبارت پایه}, name={\lr{ground term}}, parent={عبارت}}
+\newglossaryentry{مسند}{description={مسند}, name={\lr{predicate}}, plural={مسندات}}
+\newglossaryentry{چندی}{description={چندی}, name={\lr{arity}}}
+\newglossaryentry{نگاشت عبارتی}{description={نگاشت عبارتی}, name={\lr{term mapping}}}
+\newglossaryentry{جایگزینی}{description={جایگزینی}, name={\lr{substitution}}}
+\newglossaryentry{بستار وجودی}{description={بستار وجودی}, name={\lr{existantial closure}}}
+\newglossaryentry{مقداردهی}{description={مقداردهی}, name={\lr{valuation}}}
+\newglossaryentry{ارضا}{description={ارضا}, name={\lr{satisfaction}}}
+\newglossaryentry{متغیر مکانی}{description={متغیر مکانی}, name={\lr{location variable}}, plural={متغیرهای مکانی}}
+\newglossaryentry{متغیر تبادلی}{description={متغیر تبادلی}, name={\lr{interaction variable}}, plural={متغیرهای تبادلی}}
+\newglossaryentry{دروازه}{description={دروازه}, name={\lr{gate}}, plural={دروازه‌ها}}
+\newglossaryentry{گونه}{description={گونه}, name={\lr{type}}}
+\newglossaryentry{میان‌گذاری}{description={میان‌گذاری}, name={\lr{interleaving}}}\newglossaryentry{همروند}{description={همروند}, name={\lr{parallel}}}\newglossaryentry{نمونه‌ی مکانی}{description={نمونه‌ی مکانی}, name={\lr{instantiated location}}}
+\newglossaryentry{محرکه}{description={محرکه}, name={\lr{stimulus}}}
+\newglossaryentry{عکس‌العمل}{description={عکس‌العمل}, name={\lr{reaction}}}
+\newglossaryentry{افراز}{description={افراز}, name={\lr{partition}}}
+\newglossaryentry{واحد کارکردی}{description={واحد کارکردی}, name={\lr{functional unit}}, plural={واحدهای کارکردی}}
+\newglossaryentry{مرتب‌سازی}{description={مرتب‌سازی}, name={\lr{sort}}}
+\newglossaryentry{رده}{description={رده}, name={\lr{category}}}
+\newglossaryentry{گزینه}{description={گزینه}, name={\lr{choice}}}
+\newglossaryentry{درخت‌ طبقه‌بندی}{description={درخت‌ طبقه‌بندی}, name={\lr{classification tree}}}
+\newglossaryentry{مورد کاربرد}{description={مورد کاربرد}, name={\lr{use case}}, plural={موارد کاربرد}}
+\newglossaryentry{بسته‌}{description={بسته‌}, name={\lr{package}}}
+\newglossaryentry{عنصر}{description={عنصر}, name={\lr{classifier}}}
+\newglossaryentry{اثر}{description={اثر}, name={\lr{effect}}}
+\newglossaryentry{رهانا}{description={رهانا}, name={\lr{trigger}}}
+\newglossaryentry{رویداد}{description={رویداد}, name={\lr{event}}}
+\newglossaryentry{حوزه‌}{description={حوزه‌}, name={\lr{scope}}}
+\newglossaryentry{بازه}{description={بازه}, name={\lr{range}}}
+\newglossaryentry{مولد}{description={مولد}, name={\lr{generator}}}
+\newglossaryentry{نمونه}{description={نمونه}, name={\lr{instance}}}
+\newglossaryentry{کنش}{description={کنش}, name={\lr{action}}}
+\newglossaryentry{ناحیه}{description={ناحیه}, name={\lr{region}}}
+\newglossaryentry{پوشش متن}{description={پوشش متن}, name={\lr{code coverage}}}
+\newglossaryentry{پوشش مدل}{description={پوشش مدل}, name={\lr{model coverage}}}
+\newglossaryentry{حالت هدف}{description={حالت هدف}, name={\lr{goal state}}}
+\newglossaryentry{بازمتن}{description={بازمتن}, name={\lr{open source}}}
+\newglossaryentry{مطابقت}{description={مطابقت}, name={\lr{conformance}}}

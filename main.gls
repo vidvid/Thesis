@@ -1,0 +1,96 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\providecommand*\glsXpageXglsnumberformat[2]{\setentrycounter[#1]{page}\glsnumberformat{#2}}
+\providecommand*\glsXpageXtextrm[2]{\setentrycounter[#1]{page}\textrm{#2}}
+\providecommand*\glsXpageXtextsf[2]{\setentrycounter[#1]{page}\textsf{#2}}
+\providecommand*\glsXpageXtexttt[2]{\setentrycounter[#1]{page}\texttt{#2}}
+\providecommand*\glsXpageXtextbf[2]{\setentrycounter[#1]{page}\textbf{#2}}
+\providecommand*\glsXpageXtextmd[2]{\setentrycounter[#1]{page}\textmd{#2}}
+\providecommand*\glsXpageXtextit[2]{\setentrycounter[#1]{page}\textit{#2}}
+\providecommand*\glsXpageXtextup[2]{\setentrycounter[#1]{page}\textup{#2}}
+\providecommand*\glsXpageXtextsl[2]{\setentrycounter[#1]{page}\textsl{#2}}
+\providecommand*\glsXpageXtextsc[2]{\setentrycounter[#1]{page}\textsc{#2}}
+\providecommand*\glsXpageXemph[2]{\setentrycounter[#1]{page}\emph{#2}}
+\providecommand*\glsXpageXglshypernumber[2]{\setentrycounter[#1]{page}\glshypernumber{#2}}
+\providecommand*\glsXpageXhyperrm[2]{\setentrycounter[#1]{page}\hyperrm{#2}}
+\providecommand*\glsXpageXhypersf[2]{\setentrycounter[#1]{page}\hypersf{#2}}
+\providecommand*\glsXpageXhypertt[2]{\setentrycounter[#1]{page}\hypertt{#2}}
+\providecommand*\glsXpageXhyperbf[2]{\setentrycounter[#1]{page}\hyperbf{#2}}
+\providecommand*\glsXpageXhypermd[2]{\setentrycounter[#1]{page}\hypermd{#2}}
+\providecommand*\glsXpageXhyperit[2]{\setentrycounter[#1]{page}\hyperit{#2}}
+\providecommand*\glsXpageXhyperup[2]{\setentrycounter[#1]{page}\hyperup{#2}}
+\providecommand*\glsXpageXhypersl[2]{\setentrycounter[#1]{page}\hypersl{#2}}
+\providecommand*\glsXpageXhypersc[2]{\setentrycounter[#1]{page}\hypersc{#2}}
+\providecommand*\glsXpageXhyperemph[2]{\setentrycounter[#1]{page}\hyperemph{#2}}
+\begin{theglossary}\glossaryheader
+\glsgroupheading{ا}\relax\glsresetentrylist
+\glossaryentryfield{آزمون بازگشتی}{\glsnamefont{آزمون بازگشتی}}{\lr {regression test}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{36}}}\relax\glsresetentrylist
+\glossaryentryfield{افراز}{\glsnamefont{افراز}}{\lr {partition}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{13}}}\relax\glsresetentrylist
+\glossaryentryfield{اولویت‌بندی}{\glsnamefont{اولویت‌بندی}}{\lr {prioritization}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{36}}}\relax\glsresetentrylist
+\glossaryentryfield{آی‌او‌کو}{\glsnamefont{آی‌او‌کو}}{\lr {ioco}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{9}}}\glsgroupskip
+\glsgroupheading{ب}\relax\glsresetentrylist
+\glossaryentryfield{بازرسی}{\glsnamefont{بازرسی}}{\lr {inspection}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{9}}}\relax\glsresetentrylist
+\glossaryentryfield{بدون درز}{\glsnamefont{بدون درز}}{\lr {seamless}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{5}}}\relax\glsresetentrylist
+\glossaryentryfield{بررسی ایستا}{\glsnamefont{بررسی ایستا}}{\lr {static analysis}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{10}}}\relax\glsresetentrylist
+\glossaryentryfield{بررسی گونه‌ها}{\glsnamefont{بررسی گونه‌ها}}{\lr {type checking}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{36}}}\relax\glsresetentrylist
+\glossaryentryfield{بررسی مدل}{\glsnamefont{بررسی مدل}}{\lr {model checking}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{10}}}\relax\glsresetentrylist
+\glossaryentryfield{برون‌خط}{\glsnamefont{برون‌خط}}{\lr {offline}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{36}}}\relax\glsresetentrylist
+\glossaryentryfield{بسته‌}{\glsnamefont{بسته‌}}{\lr {package}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{22}}}\glsgroupskip
+\glsgroupheading{ت}\relax\glsresetentrylist
+\glossaryentryfield{توصیف}{\glsnamefont{توصیف}}{\lr {specification}}{\relax }\relax\glsresetentrylist
+\glossarysubentryfield{1}{توصیف سیستم}{\glsnamefont{توصیف سیستم}}{\lr {system specification}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{11}}}\glsgroupskip
+\glsgroupheading{خ}\relax\glsresetentrylist
+\glossaryentryfield{خاص-دامنه}{\glsnamefont{خاص-دامنه}}{\lr {domain specific}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{37}}}\glsgroupskip
+\glsgroupheading{د}\relax\glsresetentrylist
+\glossaryentryfield{درخت‌ طبقه‌بندی}{\glsnamefont{درخت‌ طبقه‌بندی}}{\lr {classification tree}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{15}}}\relax\glsresetentrylist
+\glossaryentryfield{در-لحظه}{\glsnamefont{در-لحظه}}{\lr {on the fly}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{33}\delimN 
+\glsXpageXglsnumberformat{}{36}}}\glsgroupskip
+\glsgroupheading{ر}\relax\glsresetentrylist
+\glossaryentryfield{رده}{\glsnamefont{رده}}{\lr {category}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{14}}}\relax\glsresetentrylist
+\glossaryentryfield{روش صوری}{\glsnamefont{روش صوری}}{\lr {formal method}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{2}}}\glsgroupskip
+\glsgroupheading{س}\relax\glsresetentrylist
+\glossaryentryfield{سیستم تحت آزمون}{\glsnamefont{سیستم تحت آزمون}}{\lr {system under test}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{11}}}\glsgroupskip
+\glsgroupheading{ع}\relax\glsresetentrylist
+\glossaryentryfield{عنصر}{\glsnamefont{عنصر}}{\lr {element}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{25}}}\glsgroupskip
+\glsgroupheading{ک}\relax\glsresetentrylist
+\glossaryentryfield{کلیشه}{\glsnamefont{کلیشه}}{\lr {stereotype}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{25}}}\glsgroupskip
+\glsgroupheading{گ}\relax\glsresetentrylist
+\glossaryentryfield{گزینه}{\glsnamefont{گزینه}}{\lr {choice}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{14}}}\glsgroupskip
+\glsgroupheading{م}\relax\glsresetentrylist
+\glossaryentryfield{مرتب‌سازی}{\glsnamefont{مرتب‌سازی}}{\lr {sort}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{14}}}\relax\glsresetentrylist
+\glossaryentryfield{مشخصه}{\glsnamefont{مشخصه}}{\lr {property}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{10}}}\relax\glsresetentrylist
+\glossaryentryfield{مطابقت}{\glsnamefont{مطابقت}}{\lr {conformance}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{1}}}\relax\glsresetentrylist
+\glossaryentryfield{مورد آزمون}{\glsnamefont{مورد آزمون}}{\lr {test case}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{1}}}\relax\glsresetentrylist
+\glossaryentryfield{مورد کاربرد}{\glsnamefont{مورد کاربرد}}{\lr {use case}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{21}}}\glsgroupskip
+\glsgroupheading{و}\relax\glsresetentrylist
+\glossaryentryfield{واحد کارکردی}{\glsnamefont{واحد کارکردی}}{\lr {functional unit}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{13}}}\glsgroupskip
+\glsgroupheading{ی}\relax\glsresetentrylist
+\glossaryentryfield{یک‌پارچه}{\glsnamefont{یک‌پارچه}}{\lr {integrated}}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{5}}}%
+\end{theglossary}\glossarypostamble
