@@ -1,5 +1,10 @@
 از دیدگاه مهندسی نیازمند‌ی ن
 \section{انگیزه‌ی پژوهش}
+\begin{latin}
+VIII. CURRENT STATUS AND PERSPECTIVE
+Actor languages have been used for parallel and dis- tributed computing in the real world for some time (e.g. Charm++ for scientific applications on supercomputers, Er- lang for distributed applications). In recent years, interest in actor-based languages has been growing, among researchers as well as practitioners. This interest is triggered by emerg- ing programming platforms such as multicore computers, cloud computers, Web services, and sensor networks. In some cases, such as cloud computing, web services and sensor networks, the Actor model is a natural programming model because of the distributed nature of these platforms. As multicore architectures are scaled, multicore computers will also look more more like the traditional multicomputer platforms. This is illustrated by the prototype, 48-core Single-Chip Cloud Computer (SCC) developed by Intel [36]. However, the argument for using actor-based programming languages is not simply that they provide a good match for representing computation on a variety of parallel and dis- tributed computing platforms. The point is that by extending object-based modeling to concurrent agents, actors provide a good starting point for simplifying the task of parallel (distributed, mobile) programming.
+\end{latin}
+(از مقاله‌ی آقا ۲۰۱۰)
 روش‌های آزمون مبتنی بر مدل کاستی‌هایی نیز دارند. برای مثال در آی‌اوکو، استفاده از ماشین گذار برای توصیف سیستم تحت آزمون می‌تواند منجر به تولید مدل‌های بسیار پیچیده‌ای شود، زیرا ماشین‌های گذار علی‌رغم قدرت بیان بالا، چنا‌ن‌چه خواهیم دید، از نظر توصیفی نمادگذاری سطح پایینی محسوب می‌شوند و بنابراین مدل‌سازی جزئیات سیستم ممکن است حجم زیادی از پیچیدگی را در مدل‌ها به وجود آورد.
 
 \section{صورت مسئله}

@@ -222,7 +222,6 @@
 از سوی دیگر، روش‌هایی برای آزمون خودکار نرم‌افزار معرفی شده‌اند که هدف آن‌ها تولید موارد آزمون شامل داده است. این روش‌ها به جای توصیف رفتار سیستم توسط ماشین‌های گذار، با استفاده از متن برنامه (به صورت جعبه سفید) امکان توصیف روابط میان مقادیر داده‌ای و چگونگی تولید مقادیر داده‌ای  به هدف آزمون را مهیا می‌کند.
 
 بر این اساس، در این پژوهش چهارچوبی یک‌پارچه برای مدل‌سازی همزمان رفتارهای مورد انتظار از سیستم تحت آزمون از یک سو و توصیف داده‌های ورودی و خروجی آن از سوی دیگر ارائه شده است. این چهارچوب برای توصیف این موارد از زبان یو‌ام‌ال استفاده می‌کند. به این ترتیب امکان توصیف سیستم‌هایی که هم از نظر رفتاری و هم از نظر داده‌هایی که مبادله می‌کنند، پیچیده هستند فراهم می‌شود. در راستای طراحی این چهارچوب، هم‌چنین آزمون‌گری پیاده‌سازی شده است که موارد آزمون خود را بر اساس مدل‌های یو‌ام‌ال به صورت خودکار تولید می‌کند.
-
 \textbf{واژه‌های کلیدی: }\textit{ طراحی منطق دامنه، تبادل ناهمگام پیغام، مدل بازیگر، همروندی}
 
 \pagenumbering{harfi}
@@ -314,7 +313,6 @@
 {\centering\Large{\bf{Integrating Functional and Structural Methods In Model-Based Testing}} \par}
 {\centering\small{\bf{Abstract}} \par \vskip 1cm}
 \noindent Model-based testing (i.e. automatic test-case generation based on functional models of the system under test) is now widely in use as a solution to automatic software testing problem. The goal this testing method is to test complex systems (e.g. systems with concurrent behaviors). By the way, it exploits low-level notations (e.g. transition systems) to describe system specifications. Therefore, modeling some aspects of the system, such as input/output data values, may result in high-complexity of the resulted model or it may not possible at all.
-
 On the other hand, there are methods that focus on data-dependent systems. Hereby, they analyze the source code (in a white-box manner), instead if high-level behavioral models,  to infer data dependencies and to define test data valuation method. In spite of their power in modeling data items, test behaviors in these methods should be designed manually and therefore, defining numerous and complex behaviors for the test process may lead to difficulties.
 
 In this work, we introduce an integrated framework for modeling both the expected system behaviors and the input/output data structures, consistently. To this end, we have used UML language for modeling purposes. This enables us to describe systems that are both complex in behavior and the data. We have also developed a tool which automatically generates test-cases based on the defined UML models. 
