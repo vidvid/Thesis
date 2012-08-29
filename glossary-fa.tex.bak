@@ -3,14 +3,24 @@
 \newglossaryentry{لفافه‌بندی‌شده}{name={لفافه‌بندی‌شده}, description={\lr{Encapsulated}}}
 \newglossaryentry{رفتار}{name={رفتار}, description={\lr{Behavior}}}
 \newglossaryentry{تجزیه‌ناپذیر}{name={تجزیه‌ناپذیر}, description={\lr{Atomic}}}
+\newglossaryentry{انصاف}{name={انصاف}, description={\lr{Fairness}}}
 \newglossaryentry{حالت}{name={حالت}, description={\lr{State}}}
 \newglossaryentry{حالت مشترک}{name={حالت مشترک}, description={\lr{Shared State}}}
+\newglossaryentry{تجزیه}{name={تجزیه}, description={\lr{Decomposition}}}
+\newglossaryentry{شیءگونه}{name={شیءگونه}, description={\lr{Object-Style}}}
+\newglossaryentry{شیء-بنیاد}{name={شیء-بنیان}, description={\lr{Object-Based}}}
+\newglossaryentry{استدلال}{name={استدلال}, description={\lr{Reason}}}
+\newglossaryentry{بی‌قاعده}{name={بی‌قاعده}, description={\lr{Irregular}}}
+\newglossaryentry{مقیاس‌پذیر}{name={مقیاس‌پذیر}, description={\lr{Scalable}}}
+\newglossaryentry{پراکنده}{name={پراکنده}, description={\lr{Sparse}}}
+\newglossaryentry{حالت محلی}{name={حالت محلی}, description={\lr{Local State}}}
 \newglossaryentry{واکنشی}{name={واکنشی}, description={\lr{Reactive}}}
 \newglossaryentry{همگام}{name={همگام}, description={\lr{Synchronous}}}
 \newglossaryentry{ناهمگام}{name={ناهمگام}, description={\lr{Asynchronous}}}
 \newglossaryentry{شی‌ء}{name={شی‌ء}, description={\lr{Object}}}
 \newglossaryentry{ریسمان}{name={ریسمان}, description={\lr{Thread}}}
 \newglossaryentry{میانگیری‌شده}{name={میانگیری‌شده}, description={\lr{Buffered}}}
+\newglossaryentry{زمان‌بندی}{name={زمان‌بندی}, description={\lr{Scheduling}}}
 \newglossaryentry{ارلانگ}{name={ارلانگ}, description={\lr{Erlang}}}
 \newglossaryentry{بررسی گونه‌ها}{name={بررسی گونه‌ها}, description={\lr{type checking}}}
 \newglossaryentry{مشخصه}{name={مشخصه}, plural={مشخصات},description={\lr{property}}}
