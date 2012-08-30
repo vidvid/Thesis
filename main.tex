@@ -22,8 +22,37 @@
 
 
 \usepackage[pagebackref=true]{hyperref}
-\usepackage[rgb,x11names]{xcolor}% Optimize for screen reading.
+\usepackage[rgb,x11names,dvipsnames]{xcolor}% Optimize for screen reading.
+\usepackage{listings}
+\lstdefinelanguage{scala}{
+  morekeywords={class, case, var, val, if, else, while, for, from, to extends, def, self, false, true, now, loop, react, ruturn, override},
+  otherkeywords={=>,<-,<\%,\#,@,::},
+  sensitive=true,
+  morecomment=[l]{//},
+  morecomment=[n]{/*}{*/},
+  morestring=[b]",
+  morestring=[b]',
+  morestring=[b]"""
+}
 
+\lstset{frame=tb,
+  language=scala,
+  aboveskip=0mm,
+  belowskip=0mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  keywordstyle=\color{RedViolet},
+  numbers=left,
+  numberstyle=\tiny\color{blue},
+  numbersep=5pt,
+  stringstyle=\color{Dandelion},
+  stepnumber=1,
+  frame=none,
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=2
+}
 \usepackage[xindy]{glossaries}
 
 
