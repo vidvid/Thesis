@@ -25,8 +25,8 @@
 \usepackage[rgb,x11names,dvipsnames]{xcolor}% Optimize for screen reading.
 \usepackage{listings}
 \lstdefinelanguage{scala}{
-  morekeywords={class, case, var, val, if, else, while, for, from, to extends, def, self, false, true, now, loop, react, ruturn, override},
-  otherkeywords={=>,<-,<\%,\#,@,::},
+  morekeywords={import, object, class, case, var, val, if, else, while, for, from, to, extends, def, self, false, true, now, loop, react, ruturn, override},
+  otherkeywords={=>,<-,::},
   sensitive=true,
   morecomment=[l]{//},
   morecomment=[n]{/*}{*/},
@@ -125,6 +125,28 @@
 \newtheorem{theorem}{قضیه}[chapter]
 \newtheorem{lemma}{لم}[chapter]
 
+%\let\lstinputlistingO=\lstinputlisting
+\newcommand{\codelisting}[4][]
+{
+\begin{figure}[ht]
+\begin{center}
+\begin{tabular}{c}
+\begin{latin}
+\linespread{1.4}
+\lstinputlisting[#1]{#2}
+\end{latin}
+\end{tabular}
+\end{center}
+\caption{#3}
+\label{#4}
+\end{figure}
+}
+%\newcommand{\codelstinputlisting}[2]{
+%\begin{latin}
+%linespread{6}
+%\lstinputlisting[{#1}]{{#2}}
+%\end{latin}
+%}
 
 
 

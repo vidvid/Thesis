@@ -1,0 +1,44 @@
+\begin{figure*}
+    \begin{center}
+    \begin{tabular}{| c | c |}
+      	\hline
+	 & \\
+
+	\begin{latin}
+\linespread{1.1}
+\lstinputlisting[language=scala]{2-Preliminaries/src/SillyActor.scala}
+\end{latin} & 
+ \begin{latin}
+	\linespread{1.1}
+	\lstinputlisting[language=scala]{2-Preliminaries/src/SillyActor.scala}
+\end{latin}
+ 	\\
+         (الف) & (ب) \\
+	\hline
+    \end{tabular}
+    \end{center}
+    \caption{\label{fig:suspensionSample} مراحل تولید اتوماتای تعلیقی الف) ماشین گذار اولیه و ب) اتوماتای تعلیقی تولید شده برای آن}
+\end{figure*}
+
+
+% single box code:
+\begin{figure}[ht]
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\\
+\begin{latin}
+\linespread{1.1}
+\lstinputlisting[language=scala]{2-Preliminaries/src/SillyActor.scala}
+\end{latin}
+\\
+\hline
+
+\end{tabular}
+\end{center}
+\caption{یک بازیگر ساده در زبان اسکالا}
+\label{figure:sillyActor}
+\end{figure}
+  
+
+  \codelstinputlisting[language=scala]{code file}{caption text}{label text}
