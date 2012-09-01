@@ -17,6 +17,8 @@
 \newglossaryentry{واکنشی}{name={واکنشی}, description={\lr{reactive}}}
 \newglossaryentry{همگام}{name={همگام}, description={\lr{synchronous}}}
 \newglossaryentry{ناهمگام}{name={ناهمگام}, description={\lr{asynchronous}}}
+\newglossaryentry{همگام‌سازی}{name={همگام‌سازی}, description={\lr{synchronization}}}
+\newglossaryentry{هماهنگی}{name={هماهنگی}, description={\lr{coordination}}}
 \newglossaryentry{شی‌ء}{name={شی‌ء}, description={\lr{object}}}
 \newglossaryentry{ریسمان}{name={ریسمان}, description={\lr{thread}}}
 \newglossaryentry{ریسمان-بنیان}{name={ریسمان-بنیان}, description={\lr{thread-based}}}
@@ -63,4 +65,6 @@
 \newglossaryentry{استثناء}{name={استثناء}, description={\lr{exception}}}
 \newglossaryentry{تقسیم-و-حل}{name={تقسیم-و-حل}, description={\lr{devide and conquer}}}
 \newglossaryentry{خط لوله}{name={خط لوله}, description={\lr{pipeline}}}
+\newglossaryentry{بن‌باز}{name={بن‌باز}, description={\lr{livelock}}}
+\newglossaryentry{ترتیبی}{name={ترتیبی}, description={\lr{sequential}}}
 
