@@ -67,4 +67,5 @@
 \newglossaryentry{خط لوله}{name={خط لوله}, description={\lr{pipeline}}}
 \newglossaryentry{بن‌باز}{name={بن‌باز}, description={\lr{livelock}}}
 \newglossaryentry{ترتیبی}{name={ترتیبی}, description={\lr{sequential}}}
+\newglossaryentry{موجودیت}{name={موجودیت}, description={\lr{entity}}}
 
