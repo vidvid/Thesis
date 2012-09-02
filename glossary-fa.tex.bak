@@ -1,5 +1,5 @@
-\newglossaryentry{بازیگر}{name={بازیگر}, description={\lr{actor}}}
-\newglossaryentry{مدل بازیگر}{name={مدل بازیگر}, description={\lr{actor model}}}
+\newglossaryentry{اکتور}{name={اکتور}, description={\lr{actor}}}
+\newglossaryentry{مدل اکتور}{name={مدل اکتور}, description={\lr{actor model}}}
 \newglossaryentry{لفافه‌بندی‌شده}{name={لفافه‌بندی‌شده}, description={\lr{encapsulated}}}
 \newglossaryentry{رفتار}{name={رفتار}, description={\lr{behavior}}}
 \newglossaryentry{تجزیه‌ناپذیر}{name={تجزیه‌ناپذیر}, description={\lr{atomic}}}
@@ -68,4 +68,4 @@
 \newglossaryentry{بن‌باز}{name={بن‌باز}, description={\lr{livelock}}}
 \newglossaryentry{ترتیبی}{name={ترتیبی}, description={\lr{sequential}}}
 \newglossaryentry{موجودیت}{name={موجودیت}, description={\lr{entity}}}
-
+\newglossaryentry{افزایشی}{name={افزایشی}, description={\lr{incremental}}}

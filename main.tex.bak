@@ -54,7 +54,7 @@
   tabsize=2
 }
 \usepackage[xindy]{glossaries}
-
+\usepackage{longtable}
 \usepackage[margin=10mm,font={footnotesize},labelfont={footnotesize}]{caption}
 
 \usepackage{xepersian}
