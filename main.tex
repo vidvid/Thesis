@@ -52,6 +52,7 @@
   breaklines=true,
   breakatwhitespace=true,
   tabsize=2
+  float=[hbtp]
 }
 \usepackage[xindy]{glossaries}
 \usepackage{longtable}
@@ -128,18 +129,20 @@
 %\let\lstinputlistingO=\lstinputlisting
 \newcommand{\codelisting}[4][]
 {
-\begin{figure}[ht]
-\begin{center}
-\begin{tabular}{c}
+\begin{figure*}
 \begin{latin}
+\begin{center}
+%\begin{tabular}[hbtp]{c}
+
 \linespread{1.4}
 \lstinputlisting[#1]{#2}
-\end{latin}
-\end{tabular}
+
+%\end{tabular}
 \end{center}
+\end{latin}
 \caption{#3}
 \label{#4}
-\end{figure}
+\end{figure*}
 }
 %\newcommand{\codelstinputlisting}[2]{
 %\begin{latin}

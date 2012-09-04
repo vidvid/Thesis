@@ -1,4 +1,4 @@
-‍class Course( 
+class Course( 
   var id: String,
   var name: String,
   var units: Int,
