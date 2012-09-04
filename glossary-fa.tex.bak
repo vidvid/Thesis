@@ -69,3 +69,4 @@
 \newglossaryentry{ترتیبی}{name={ترتیبی}, description={\lr{sequential}}}
 \newglossaryentry{موجودیت}{name={موجودیت}, description={\lr{entity}}}
 \newglossaryentry{افزایشی}{name={افزایشی}, description={\lr{incremental}}}
+\newglossaryentry{آینده}{name={آینده}, description={\lr{Future}}}
