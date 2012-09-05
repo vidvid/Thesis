@@ -1,15 +1,14 @@
-\documentclass[twoside, a4paper,11pt]{book}
+\documentclass[oneside, a4paper,11pt]{book}
 \usepackage{graphicx}
-\usepackage{wrapfig}
-\usepackage{verbatim}
+%\usepackage{wrapfig}
+%\usepackage{verbatim}
 \usepackage{fancyhdr}
 \usepackage{url}
-\usepackage{supertabular}
+%\usepackage{supertabular}
 \usepackage{multicol}
-\usepackage{setspace}
+%\usepackage{setspace}
 
-
-\usepackage{array}
+%\usepackage{array}
 \usepackage{colortbl}
 
 \usepackage{amsmath}
@@ -17,11 +16,11 @@
 \usepackage{amssymb}
 \usepackage{cancel}
 \usepackage{mathtools}
-\usepackage{extpfeil}
+%\usepackage{extpfeil}
 %\usepackage[only, llbracket, rrbracket]{stmaryrd}
 
 
-\usepackage[pagebackref=true]{hyperref}
+\usepackage[pagebackref=false]{hyperref}
 \usepackage[rgb,x11names,dvipsnames]{xcolor}% Optimize for screen reading.
 \usepackage{listings}
 \lstdefinelanguage{scala}{
@@ -132,12 +131,12 @@
 \begin{figure*}
 \begin{latin}
 \begin{center}
-%\begin{tabular}[hbtp]{c}
+\begin{tabular}[hbtp]{c}
 
 \linespread{1.4}
 \lstinputlisting[#1]{#2}
 
-%\end{tabular}
+\end{tabular}
 \end{center}
 \end{latin}
 \caption{#3}
@@ -223,7 +222,7 @@
   استاد راهنما\par
 \Large\bfseries دکتر رامتین خسروی}
 \par
-\vskip 2cm
+\vskip 1.5cm
 {\large\bfseries پایان‌نامه برای دریافت درجهٔ \space کارشناسی ارشد \space در رشتهٔ \\* مهندسی کامپیوتر - گرایش نرم‌افزار}
 \par
 \vskip 1cm
@@ -243,8 +242,7 @@
 \begin{flushleft}   
 \begin{tabular}{l} 
 \vspace{5cm} \\
-\shafigh{ تقدیم به آنان که در خوشی‌هایم همراهی کردند و در ناخوشی‌هایم صبر؛} \\
- \shafigh{ پدرم، مادرم و همسر مهربانم} \\
+\shafigh{ تقدیم به پدرم، مادرم و همسر مهربانم} \\
 \end{tabular}
 \end{flushleft}
 
@@ -257,8 +255,6 @@
 \begin{center}
 \large{\bfseries{قدردانی}}\\
 \end{center}
-خدای سبحان را سپاس می‌گویم که به من توان و قوه‌ی ذهنی عطا فرمود تا از عهده‌ی مشکلات انجام این پژوهش برآیم.
- 
 ‎در ابتدا لازم می‌دانم از جناب آقای دکتر رامتین خسروی که در انجام این پژوهش  افتخار استفاده از راهنمایی ایشان را داشتم، تشکر و قدردانی کنم. مطمئناً این کار بدون کمک‌های همه‌جانبه و بی‌شائبه‌ی ایشان امکان‌پذیر نبود. از اعضای هیئت داوران محترم نیز برای فرصتی که در اختیار من قرار دادند تشکر می‌کنم.
 
 \newpage
@@ -271,12 +267,9 @@
 \newpage
 {\centering\large{\bf{طراحی منطق دامنه بر اساس تبادل ناهمگام پیغام}} \par}
 \subsection*{چکیده}
-آزمون مبتنی بر مدل، به معنی تولید خودکار موارد آزمون از مدل کارکردی و صوری سیستم تحت آزمون به صورت جعبه سیاه، که به عنوان راه‌حلی برای مسئله‌ی تولید و اجرای خودکار آزمون‌ها مطرح شده است، استفاده‌ی روزافزونی درسال‌های اخیر داشته است. ایده‌ی آزمون مبتنی بر مدل، اساساً به هدف آزمون سیستم‌های با رفتار پیچیده (و معمولاً همروند) مطرح شده است. با این حال، در این روش‌ها مدل‌سازی رفتار سیستم توسط نمادگذاری‌های سطح پایین (مانند ماشین‌های گذار) انجام می‌شود. برای مثال، در این روش‌ها مدل‌سازی مقادیر داده‌ای به عنوان پارامترهای ورودی و خروجی سیستم تحت آزمون یا اصلاً امکان‌پذیر نیست و یا منجر به تولید مدل‌های بسیار پیچیده‌ای می‌شود.
+در سال‌های اخیر گرایش به مدل اکتور چه در دنیای پژوهش و چه در صنعت افزایش پیدا کرده است. تغییر روند افزایش سرعت پردازنده‌ها به سمت افزایش تعداد هسته‌ها، استفاده از زیرساخت‌های محاسبات ابری و گرایش به تولید برنامه‌های توزیع شده می‌توانند از جمله‌ی دلایل این علاقه‌مندی باشند. از سوی دیگر علیرغم وجود منابع گسترده برای یادگیری طراحی به روش شیءگرا، کمبود پژوهش در زمینه‌ی روش‌ها و نکات موجود در طراحی شیءگرای همروند محسوس می‌باشد. در این پژوهش تلاش شده است تا با انجام طراحی یک سیستم انتخاب شده با استفاده از تبادل ناهمگام پیغام، روش‌ها،‌ الگوها و نکات موجود در این روش طراحی بررسی شده و به صورت قابل استفاده‌ای ارائه گردند. طراحی انجام شده با استفاده از معیارهای کیفی نرم‌افزار، با طراحی شیءگرای عادی (ترتیبی) مقایسه شده و نشان داده شده است که از نظر کیفی این طراحی قابل مقایسه و در مواردی بهتر از طراحی ترتیبی است. علاوه بر این با استفاده از این نوع طراحی،‌ همروندی ذاتی در سیستم ایجاد می‌شود و قابلیت توزیع برنامه به دلیل خصوصیات معنایی مدل اکتور به صورت قابل توجهی افزایش می‌یابد.\\
 
-از سوی دیگر، روش‌هایی برای آزمون خودکار نرم‌افزار معرفی شده‌اند که هدف آن‌ها تولید موارد آزمون شامل داده است. این روش‌ها به جای توصیف رفتار سیستم توسط ماشین‌های گذار، با استفاده از متن برنامه (به صورت جعبه سفید) امکان توصیف روابط میان مقادیر داده‌ای و چگونگی تولید مقادیر داده‌ای  به هدف آزمون را مهیا می‌کند.
-
-بر این اساس، در این پژوهش چهارچوبی یک‌پارچه برای مدل‌سازی همزمان رفتارهای مورد انتظار از سیستم تحت آزمون از یک سو و توصیف داده‌های ورودی و خروجی آن از سوی دیگر ارائه شده است. این چهارچوب برای توصیف این موارد از زبان یو‌ام‌ال استفاده می‌کند. به این ترتیب امکان توصیف سیستم‌هایی که هم از نظر رفتاری و هم از نظر داده‌هایی که مبادله می‌کنند، پیچیده هستند فراهم می‌شود. در راستای طراحی این چهارچوب، هم‌چنین آزمون‌گری پیاده‌سازی شده است که موارد آزمون خود را بر اساس مدل‌های یو‌ام‌ال به صورت خودکار تولید می‌کند.
-\textbf{واژه‌های کلیدی: }\textit{ طراحی منطق دامنه، تبادل ناهمگام پیغام، مدل بازیگر، همروندی}
+\textbf{واژه‌های کلیدی: }\textit{ طراحی منطق دامنه، تبادل ناهمگام پیغام، مدل اکتور، همروندی}
 
 \pagenumbering{harfi}
 
@@ -321,22 +314,22 @@
 \input{3-RelatedWork/RelatedWork}
 \chapter{طراحی به روش تبادل ناهمگام پیغام}
 \label{chapter:proposedFramework}
-\thispagestyle{plain}
+%\thispagestyle{plain}
 \input{4-ProposedFramework/ProposedFramework}
-\chapter{ارزیابی}
-\label{chapter:evaluation}
-\thispagestyle{plain}
-\input{5-Evaluation/Evaluation}
+%\chapter{ارزیابی}
+%\label{chapter:evaluation}
+%\thispagestyle{plain}
+%\input{5-Evaluation/Evaluation}
 \chapter{جمع‌بندی و نکات پایانی}
 \label{chapter:Conclusion}
 \thispagestyle{plain}
 \input{6-Conclusion/Conclusion}
 
-\appendix
-\chapter{تطبیق نمادگذاری‌ها}
-\label{appendix}
-\thispagestyle{plain}
-\input{7-Appendix/Appendix}
+%\appendix
+%\chapter{تطبیق نمادگذاری‌ها}
+%\label{appendix}
+%\thispagestyle{plain}
+%\input{7-Appendix/Appendix}
 \newpage
 
 \linespread{1.2}
@@ -364,15 +357,12 @@
 
 % LATIN ABSTRACT
 \newpage
-{\centering\Large{\bf{Integrating Functional and Structural Methods In Model-Based Testing}} \par}
+{\centering\Large{\bf{Design of  Domain Logic Using Asynchronous Message Passing }} \par}
 {\centering\small{\bf{Abstract}} \par \vskip 1cm}
-\noindent Model-based testing (i.e. automatic test-case generation based on functional models of the system under test) is now widely in use as a solution to automatic software testing problem. The goal this testing method is to test complex systems (e.g. systems with concurrent behaviors). By the way, it exploits low-level notations (e.g. transition systems) to describe system specifications. Therefore, modeling some aspects of the system, such as input/output data values, may result in high-complexity of the resulted model or it may not possible at all.
-On the other hand, there are methods that focus on data-dependent systems. Hereby, they analyze the source code (in a white-box manner), instead if high-level behavioral models,  to infer data dependencies and to define test data valuation method. In spite of their power in modeling data items, test behaviors in these methods should be designed manually and therefore, defining numerous and complex behaviors for the test process may lead to difficulties.
-
-In this work, we introduce an integrated framework for modeling both the expected system behaviors and the input/output data structures, consistently. To this end, we have used UML language for modeling purposes. This enables us to describe systems that are both complex in behavior and the data. We have also developed a tool which automatically generates test-cases based on the defined UML models. 
-
+\noindent In recent years, interest in Actor model has been growing, among researchers as well as practitioners. This interest is triggered by emerging programming platforms such as multicore computers and cloud computers. In some cases, such as cloud computing, the Actor model is a natural programming model because of the distributed nature of these platforms. This trend in using concurrent programming using actors, makes the need for providing design principles and patterns in this model just like they are provided thoroughly in sequential  object-oriented design books.
+In this research, we choose a simple domain model named simple educational system and take the design steps needed to implement it using asynchronous message passing. The extracted patterns of actor interactions and messaging styles are provided to be used in simillar design attempts. Moreover, an empirical evaluation of software quality metrics for the design is undertaken and the results are compared with a sequential oop approach for the same domain model.
 {\par\vspace{5mm}}
-\noindent\textbf{Keywords: }\textit{model-based testing, automatic test generation, test framework, testing data dependent systems, category partitioning methods.}
+\noindent\textbf{Keywords: }\textit{asynchronous message passing, design patterns, object-oriented design, domain modeling}
 % END OF LATIN ABSTRACT
 
 \newpage
@@ -398,11 +388,11 @@ School of \space Electrical and Compuer Engineering
 \par
 \vskip 1.5cm
 \addtolength{\baselineskip}{5mm}
-{\titlefont Integrating Functional and Structural Methods In Model-Based Testing} \par
+{\titlefont Design of  Domain Logic Using Asynchronous Message Passing} \par
 \addtolength{\baselineskip}{-5mm}
 \vskip 1cm
 {\bfseries by}\par
-{\Large\bfseries Hamid Reza Asaadi}\par
+{\Large\bfseries Vahid Zoghi}\par
 \vskip 1cm
 Under supervision of \\
 {\supervisorfont\Large Dr. Ramtin Khosravi}
@@ -414,7 +404,7 @@ in
 \large Computer Engineering}
 \par
 \vskip 1cm
-{June 2010}
+{Sep 2012}
 \par
 \vfill
 \end{center}
