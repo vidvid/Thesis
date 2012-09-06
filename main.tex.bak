@@ -1,14 +1,14 @@
 \documentclass[oneside, a4paper,11pt]{book}
 \usepackage{graphicx}
-%\usepackage{wrapfig}
-%\usepackage{verbatim}
+\usepackage{wrapfig}
+\usepackage{verbatim}
 \usepackage{fancyhdr}
 \usepackage{url}
-%\usepackage{supertabular}
+\usepackage{supertabular}
 \usepackage{multicol}
-%\usepackage{setspace}
+\usepackage{setspace}
 
-%\usepackage{array}
+\usepackage{array}
 \usepackage{colortbl}
 
 \usepackage{amsmath}
@@ -16,7 +16,7 @@
 \usepackage{amssymb}
 \usepackage{cancel}
 \usepackage{mathtools}
-%\usepackage{extpfeil}
+\usepackage{extpfeil}
 %\usepackage[only, llbracket, rrbracket]{stmaryrd}
 
 
@@ -67,7 +67,7 @@
     bookmarks=true,         
   %  unicode=true,          
     pdfstartview={FitH},    
-    pdftitle={???? ??},    
+    pdftitle={Design of Domain Using Asynchronous Message Passing},    
     pdfsubject={طراحی منطق دامنه بر اساس تبادل ناهمگام پیغام}
     pdfauthor={وحید ذوقی},  
     pdfsubject={پایان‌نامه‌ی کارشناسی ارشد},  
@@ -299,7 +299,7 @@
 \renewcommand{\footrulewidth}{0pt}
 
 \pagenumbering{arabic}\setcounter{page}{1}
-
+\setcounter{secnumdepth}{3}
 \chapter{مقدمه}
 \label{chapter:Introduction}
 \thispagestyle{plain}
