@@ -312,7 +312,7 @@
 \label{chapter:RelatedWork}
 \thispagestyle{plain}
 \input{3-RelatedWork/RelatedWork}
-\chapter{طراحی به روش تبادل ناهمگام پیغام}
+\chapter{طراحی بر اساس تبادل ناهمگام پیغام}
 \label{chapter:proposedFramework}
 %\thispagestyle{plain}
 \input{4-ProposedFramework/ProposedFramework}
