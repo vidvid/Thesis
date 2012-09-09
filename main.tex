@@ -22,6 +22,7 @@
 
 \usepackage[pagebackref=false]{hyperref}
 \usepackage[rgb,x11names,dvipsnames]{xcolor}% Optimize for screen reading.
+\usepackage{longtable}
 \usepackage{listings}
 \lstdefinelanguage{scala}{
   morekeywords={import, object, class, case, var, val, if, else, while, for, from, to, extends, def, self, false, true, now, loop, react, ruturn, override},
@@ -51,13 +52,13 @@
   breaklines=true,
   breakatwhitespace=true,
   tabsize=2
-  float=[hbtp]
+  float=[hptb]
 }
 \usepackage[xindy]{glossaries}
-\usepackage{longtable}
 \usepackage[margin=10mm,font={footnotesize},labelfont={footnotesize}]{caption}
 \usepackage[section]{placeins}
 \usepackage{xepersian}
+
 \hypersetup{
    colorlinks,%
    filecolor=black,%
@@ -314,12 +315,12 @@
 \input{3-RelatedWork/RelatedWork}
 \chapter{طراحی بر اساس تبادل ناهمگام پیغام}
 \label{chapter:proposedFramework}
-%\thispagestyle{plain}
+\thispagestyle{plain}
 \input{4-ProposedFramework/ProposedFramework}
-%\chapter{ارزیابی}
-%\label{chapter:evaluation}
-%\thispagestyle{plain}
-%\input{5-Evaluation/Evaluation}
+\chapter{ارزیابی}
+\label{chapter:evaluation}
+\thispagestyle{plain}
+\input{5-Evaluation/Evaluation}
 \chapter{جمع‌بندی و نکات پایانی}
 \label{chapter:Conclusion}
 \thispagestyle{plain}
