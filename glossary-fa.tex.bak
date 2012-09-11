@@ -72,3 +72,4 @@
 \newglossaryentry{آینده}{name={آینده}, description={\lr{Future}}}
 \newglossaryentry{توزین بار}{name={توزین بار}, description={\lr{load balancing}}}
 \newglossaryentry{توان عملیاتی}{name={توان عملیاتی}, description={\lr{throughput}}}
+\newglossaryentry{مخزن}{name={مخزن}, description={\lr{repository}}}
