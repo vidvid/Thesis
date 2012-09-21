@@ -41,8 +41,6 @@
 	<integer>1</integer>
 	<key>ColumnSpacing</key>
 	<real>36</real>
-	<key>CreationDate</key>
-	<string>۱۳۹۱-۰۶-۱۱ ۱۳:۴۹:۲۱ +0000</string>
 	<key>Creator</key>
 	<string>Mobile User</string>
 	<key>DisplayScale</key>
@@ -785,7 +783,7 @@ name}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{688.07983, 344}, {18, 35}}</string>
+			<string>{{685.07983, 339}, {18, 35}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -923,7 +921,7 @@ name}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{485, 344}, {18, 35}}</string>
+			<string>{{489, 340}, {18, 35}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1008,7 +1006,7 @@ name}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{765, 451.49872}, {46.3325, 33.8993}}</string>
+			<string>{{767, 451.49872}, {46.3325, 33.8993}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -1229,8 +1227,8 @@ name}</string>
 			<integer>79</integer>
 			<key>Points</key>
 			<array>
-				<string>{472.49496, 139.00461}</string>
-				<string>{694.01996, 139.01697}</string>
+				<string>{472.49496, 139.00034}</string>
+				<string>{694.01996, 139.00124}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1298,7 +1296,7 @@ name}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>۱۳۹۱-۰۶-۱۳ ۰۸:۵۱:۲۹ +0000</string>
+	<string>۱۳۹۱-۰۶-۲۷ ۰۶:۵۵:۲۴ +0000</string>
 	<key>Modifier</key>
 	<string>Vahid Zoghi</string>
 	<key>NotesVisible</key>
@@ -1374,7 +1372,7 @@ name}</string>
 		<key>ExpandedCanvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{141, -6}, {1074, 774}}</string>
+		<string>{{-115, 4}, {1074, 774}}</string>
 		<key>ListView</key>
 		<false/>
 		<key>OutlineWidth</key>
