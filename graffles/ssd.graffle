@@ -256,7 +256,13 @@
 							<key>Shape</key>
 							<string>Circle</string>
 							<key>Style</key>
-							<dict/>
+							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
+							</dict>
 						</dict>
 					</array>
 					<key>ID</key>
@@ -591,7 +597,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>۱۳۹۱-۰۶-۱۷ ۱۶:۲۶:۵۸ +0000</string>
+	<string>۱۳۹۱-۰۷-۰۱ ۱۹:۵۷:۱۶ +0000</string>
 	<key>Modifier</key>
 	<string>Vahid Zoghi</string>
 	<key>NotesVisible</key>
